@@ -50,7 +50,15 @@ public class MisArrays {
 	        return max;
 	    }
 	 
-	 
+	 public static int minimaNota(int[] array) {
+	        int min = array[0];
+	        for (int nota : array) {
+	            if (nota < min) {
+	                min = nota;
+	            }
+	        }
+	        return min;
+	    }
 	 
 }
 
