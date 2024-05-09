@@ -38,5 +38,19 @@ public class MisArrays {
 	        }
 	        return mediana;
 	    }
+	 
+	 
+	 public static int maximaNota(int[] array) {
+	        int max = array[0];
+	        for (int nota : array) {
+	            if (nota > max) {
+	                max = nota;
+	            }
+	        }
+	        return max;
+	    }
+	 
+	 
+	 
 }
 
